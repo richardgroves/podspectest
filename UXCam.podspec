@@ -18,10 +18,7 @@ Pod::Spec.new do |s|
   s.source   = { :http => 'https://s3-eu-west-1.amazonaws.com/sdk.uxcam.com/ios/uxcam-2.3.2.zip' }
   s.platform = :ios, 7.0
   s.requires_arc = true
-
   s.vendored_frameworks = 'UXCam.framework'
-  s.frameworks     = 'UXCam', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'QuartzCore', 'SystemConfiguration'
-
+  s.frameworks     = 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'QuartzCore', 'SystemConfiguration'
   s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/UXCam"' }
-
 end
