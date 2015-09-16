@@ -1,0 +1,2 @@
+# podspectest
+Testing a podspec
