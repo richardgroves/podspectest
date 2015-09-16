@@ -13,7 +13,7 @@
   },
   "social_media_url": "http://www.twitter.com/uxcam",
   "source": {
-    "http": "https://s3-eu-west-1.amazonaws.com/sdk.uxcam.com/ios/uxcam-2.0.5.zip"
+    "http": "https://s3-eu-west-1.amazonaws.com/sdk.uxcam.com/ios/uxcam-2.0.6.zip"
   },
   "platforms": {
     "ios": 7.0
